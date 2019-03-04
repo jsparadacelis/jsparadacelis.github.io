@@ -1,0 +1,55 @@
+.row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+.container{
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'Playfair Display', serif;
+}
+.container-projects{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+
+}
+.biome{
+    padding-top: 2em;
+}
+.biome img{
+    width: 13%;
+    border-radius: 50%;
+}
+.biome p{
+    
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.social-buttons{
+    margin: 2.5em;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        margin-top: 1.5em;
+    }
+    .biome p{
+        margin-left: 0em;
+        margin-right: 0em;
+        text-align: justify;
+    }
+    .biome img {
+        width: 35%;
+    }
+    .container-projects{
+        display: block;
+        justify-content: space-around;
+        padding: 2em;
+    }
+    .card{
+        width: 100% !important;
+        margin-bottom: 1.5em;
+    }
+}
